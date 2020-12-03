@@ -27,28 +27,28 @@ services:
       - 8080:80
 
   app1:
-    image: example/django-polls:nginx
+    image: coding4startups/django-polls:nginx
     networks:
       - polls_net
     env_file:
       - deployment.env
 
   app2:
-    image: example/django-polls:nginx
+    image: coding4startups/django-polls:nginx
     networks:
       - polls_net
     env_file:
       - deployment.env
 
   app3:
-    image: example/django-polls:nginx
+    image: coding4startups/django-polls:nginx
     networks:
       - polls_net
     env_file:
       - deployment.env
 
   proxy:
-    image: example/mynginx:latest
+    image: coding4startups/mynginx:latest
     networks:
       - polls_net
     ports:

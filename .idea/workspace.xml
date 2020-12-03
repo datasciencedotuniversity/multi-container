@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6f400b9-797c-4244-884e-c22365ef5c9e" name="Default Changelist" comment="" />
+    <list default="true" id="d6f400b9-797c-4244-884e-c22365ef5c9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django-polls-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/django-polls-deploy.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django-polls/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/django-polls/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kuqLVdxcn6MruCazPWCngTwYLF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,6 +25,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -64,7 +75,8 @@
       <workItem from="1606643594305" duration="3831000" />
       <workItem from="1606658462477" duration="4222000" />
       <workItem from="1606699025740" duration="949000" />
-      <workItem from="1606999863405" duration="9003000" />
+      <workItem from="1606999863405" duration="9699000" />
+      <workItem from="1607020004138" duration="889000" />
     </task>
     <servers />
   </component>
@@ -76,10 +88,10 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1606999864287">
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1607020005276">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="-1920" y="0" key="com.intellij.ide.util.TipDialog/0.0.1500.960/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606699078900" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1500.960/-1920.0.1920.1040@0.0.1500.960" timestamp="1606999864287" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1500.960/-1920.0.1920.1040@0.0.1500.960" timestamp="1607020005276" />
   </component>
 </project>

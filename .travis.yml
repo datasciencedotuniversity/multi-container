@@ -11,7 +11,9 @@ after_success:
   - docker-compose -f django-polls-build.yml build
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOKCER_ID" --password-stdin
   - docker push coding4startups/django-polls:nginx
-  - docker push coding4startups/booksnginx:latest
+  - docker push coding4startups/mynginx:latest
+  - docker push coding4startups/django:latest
+  - docker push coding4startups/uwsgi:latest
 
 
 
