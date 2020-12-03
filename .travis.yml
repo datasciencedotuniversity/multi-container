@@ -2,6 +2,8 @@ language: generic
 sudo: required
 services:
   - docker
+
+
 #before_install:
 #  - docker build -t datasciencedotuniversity/dockeer-react -f Dockerfile.dev .
 #script:
@@ -14,9 +16,6 @@ after_success:
   - docker push coding4startups/mynginx:latest
   - docker push coding4startups/django:latest
   - docker push coding4startups/uwsgi:latest
-
-
-
 
 #deploy:
 #  provider: elasticbeanstalk
