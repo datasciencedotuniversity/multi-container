@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cef7df65-7df9-4098-b21c-a42cc280c01b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="myweb" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XpmT5ORbfrE5oGpA7Q7G1JoAWX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/media" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mohsi\PycharmProjects\myweb\media" />
+      <recent name="C:\Users\mohsi\PycharmProjects\myweb\myapp\static" />
+      <recent name="C:\Users\mohsi\PycharmProjects\myweb\myapp\static\back" />
+      <recent name="C:\Users\mohsi\PycharmProjects\myweb\myapp\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mohsi\PycharmProjects\myweb\myapp" />
+      <recent name="C:\Users\mohsi\PycharmProjects\myweb\myapp\templates" />
+      <recent name="C:\Users\mohsi\PycharmProjects\myweb\myapp\templates\back" />
+      <recent name="C:\Users\mohsi\PycharmProjects\myweb\myapp\templates\front" />
+      <recent name="C:\Users\mohsi\PycharmProjects\myweb\myapp\static\front" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="myweb" type="Python.DjangoServer" factoryName="Django server">
+      <module name="myweb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="myweb.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cef7df65-7df9-4098-b21c-a42cc280c01b" name="Default Changelist" comment="" />
+      <created>1581751414726</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581751414726</updated>
+      <workItem from="1581751514354" duration="1859000" />
+      <workItem from="1581769617500" duration="12587000" />
+      <workItem from="1581831305461" duration="8882000" />
+      <workItem from="1581999701679" duration="16728000" />
+      <workItem from="1582086606217" duration="12100000" />
+      <workItem from="1582170697392" duration="14237000" />
+      <workItem from="1582280553611" duration="11920000" />
+      <workItem from="1582345244140" duration="18617000" />
+      <workItem from="1582432537745" duration="18183000" />
+      <workItem from="1582517588291" duration="15006000" />
+      <workItem from="1582604319188" duration="11715000" />
+      <workItem from="1582651412186" duration="6787000" />
+      <workItem from="1582693616369" duration="9569000" />
+      <workItem from="1582777810500" duration="4872000" />
+      <workItem from="1582784047994" duration="3770000" />
+      <workItem from="1582863663949" duration="7207000" />
+      <workItem from="1582896313704" duration="10335000" />
+      <workItem from="1582958011234" duration="5411000" />
+      <workItem from="1583035627855" duration="10201000" />
+      <workItem from="1583122646453" duration="13897000" />
+      <workItem from="1583208275849" duration="15201000" />
+      <workItem from="1583254574345" duration="1054000" />
+      <workItem from="1583295369491" duration="12748000" />
+      <workItem from="1583343996289" duration="2502000" />
+      <workItem from="1583385706762" duration="13078000" />
+      <workItem from="1583504203380" duration="737000" />
+      <workItem from="1583560100990" duration="19418000" />
+      <workItem from="1583642518401" duration="18004000" />
+      <workItem from="1583727972694" duration="7120000" />
+      <workItem from="1583812078246" duration="11780000" />
+      <workItem from="1583902538093" duration="10538000" />
+      <workItem from="1583926933473" duration="20603000" />
+      <workItem from="1584016919053" duration="1177000" />
+      <workItem from="1584075560474" duration="17006000" />
+      <workItem from="1584158286645" duration="15341000" />
+      <workItem from="1584209061730" duration="13000" />
+      <workItem from="1584246950549" duration="11066000" />
+      <workItem from="1584273383996" duration="3748000" />
+      <workItem from="1584332153697" duration="16372000" />
+      <workItem from="1584431786625" duration="29000" />
+      <workItem from="1584436773497" duration="9583000" />
+      <workItem from="1584466512423" duration="59000" />
+      <workItem from="1584468443234" duration="860000" />
+      <workItem from="1584506064006" duration="3205000" />
+      <workItem from="1584513407511" duration="5012000" />
+      <workItem from="1584553151381" duration="610000" />
+      <workItem from="1584631360254" duration="1799000" />
+      <workItem from="1584675934211" duration="12516000" />
+      <workItem from="1584763256059" duration="10783000" />
+      <workItem from="1584856778512" duration="698000" />
+      <workItem from="1584878640773" duration="1234000" />
+      <workItem from="1585406717583" duration="9336000" />
+      <workItem from="1585484399181" duration="13412000" />
+      <workItem from="1585534879986" duration="12014000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="695" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583003659100">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="-1030" y="198" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1500.960/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1582046694247" />
+    <state x="695" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1500.960/-1920.0.1920.1040@0.0.1500.960" timestamp="1583003659100" />
+    <state width="1400" height="240" key="GridCell.Tab.0.bottom" timestamp="1584450087765">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1400" height="240" key="GridCell.Tab.0.bottom/0.0.1500.960/-1920.0.1920.1040@0.0.1500.960" timestamp="1584450087765" />
+    <state width="1400" height="240" key="GridCell.Tab.0.center" timestamp="1584450087764">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1400" height="240" key="GridCell.Tab.0.center/0.0.1500.960/-1920.0.1920.1040@0.0.1500.960" timestamp="1584450087764" />
+    <state width="1400" height="240" key="GridCell.Tab.0.left" timestamp="1584450087764">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1400" height="240" key="GridCell.Tab.0.left/0.0.1500.960/-1920.0.1920.1040@0.0.1500.960" timestamp="1584450087764" />
+    <state width="1400" height="240" key="GridCell.Tab.0.right" timestamp="1584450087764">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1400" height="240" key="GridCell.Tab.0.right/0.0.1500.960/-1920.0.1920.1040@0.0.1500.960" timestamp="1584450087764" />
+    <state x="131" y="79" width="1235" height="881" key="SettingsEditor" timestamp="1582780030445">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="131" y="79" width="1235" height="881" key="SettingsEditor/0.0.1500.960/-1920.0.1920.1040@0.0.1500.960" timestamp="1582780030445" />
+    <state x="672" y="279" key="com.intellij.ide.util.TipDialog" timestamp="1585535004849">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="-1060" y="302" key="com.intellij.ide.util.TipDialog/0.0.1500.960/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1584332154731" />
+    <state x="672" y="279" key="com.intellij.ide.util.TipDialog/0.0.1500.960/-1920.0.1920.1040@0.0.1500.960" timestamp="1585535004849" />
+    <state x="672" y="279" key="com.intellij.ide.util.TipDialog/0.0.1500.960/-1920.500.1920.1040@0.0.1500.960" timestamp="1584422269197" />
+    <state x="672" y="279" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1584431787827" />
+    <state x="325" y="9" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584686302225">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="325" y="9" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1500.960/-1920.0.1920.1040@0.0.1500.960" timestamp="1584686302225" />
+    <state x="329" y="0" width="840" height="1034" key="search.everywhere.popup" timestamp="1582612115291">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="329" y="0" width="840" height="1034" key="search.everywhere.popup/0.0.1500.960/-1920.0.1920.1040@0.0.1500.960" timestamp="1582612115291" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/myapp/models.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/myweb/wsgi.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

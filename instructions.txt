@@ -1,0 +1,17 @@
+
+
+# docker-compose -f django-polls-build.yml build
+
+# docker-compose -f django-polls-deploy.yml up -d
+# # docker-compose -f django-polls-deploy.yml logs app3
+# # after deploying the app create superuser
+# # docker-compose -f django-polls-deploy.yml run --rm app1 python manage.py migrate
+# # docker-compose -f django-polls-deploy.yml run --rm app1 python manage.py createsuperuser
+# for single image
+
+#
+# # to tarnsform from docker- compose to Dockerrun.aws.json
+# # pip install container-transform
+# # container-transform django-polls-deploy.yml
+# .\gitupdate.sh
+#

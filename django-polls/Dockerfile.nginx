@@ -1,0 +1,11 @@
+ARG BaseImage=django
+FROM $BaseImage as dev
+WORKDIR /code
+COPY . .
+RUN pip install dj-database-url==0.5.0
+RUN python manage.py collectstatic --no-input
+
+FROM nginx:1.17.0
+WORKDIR /code
+COPY --from=dev /code/static /code/static
+COPY mysite_nginx_lb.conf /etc/nginx/conf.d/

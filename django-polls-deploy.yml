@@ -1,0 +1,56 @@
+version: "3.7"
+
+networks:
+  polls_net:
+
+volumes:
+  polls_vol:
+
+services:
+
+  db:
+    image: postgres:11.3
+    networks:
+      - polls_net
+    volumes:
+      - polls_vol:/var/lib/postgres/data
+    env_file:
+      - deployment.env
+
+  pgadmin:
+    image: dpage/pgadmin4
+    networks:
+      - polls_net
+    env_file:
+      - pgadmin.env
+    ports:
+      - 8080:80
+
+  app1:
+    image: example/django-polls:nginx
+    networks:
+      - polls_net
+    env_file:
+      - deployment.env
+
+  app2:
+    image: example/django-polls:nginx
+    networks:
+      - polls_net
+    env_file:
+      - deployment.env
+
+  app3:
+    image: example/django-polls:nginx
+    networks:
+      - polls_net
+    env_file:
+      - deployment.env
+
+  proxy:
+    image: example/mynginx:latest
+    networks:
+      - polls_net
+    ports:
+      - "8000:8000"
+

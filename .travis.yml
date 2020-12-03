@@ -1,0 +1,25 @@
+language: generic
+sudo: required
+services:
+  - docker
+before_install:
+  - docker build -t datasciencedotuniversity/dockeer-react -f Dockerfile.dev .
+#script:
+#  - docker run -e CI=true datasciencedotuniversity/dockeer-react npm run test
+
+after_success:
+  - docker-compose -f django-polls-build.yml build
+
+
+
+deploy:
+  provider: elasticbeanstalk
+  region: "us-east-1"
+  app: "docker-test"
+  env: "DockerTest-env"
+  bucket_name: "elasticbeanstalk-us-east-1-634261840555"
+  bucket_path: "docker-test"
+  on:
+    branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRECT_KEY
