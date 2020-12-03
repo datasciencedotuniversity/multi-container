@@ -9,17 +9,21 @@ services:
 
 after_success:
   - docker-compose -f django-polls-build.yml build
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOKCER_ID" --password-stdin
+  - docker push coding4startups/django-polls:nginx
+  - docker push coding4startups/booksnginx:latest
 
 
 
-deploy:
-  provider: elasticbeanstalk
-  region: "us-east-1"
-  app: "docker-test"
-  env: "DockerTest-env"
-  bucket_name: "elasticbeanstalk-us-east-1-634261840555"
-  bucket_path: "docker-test"
-  on:
-    branch: master
-  access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: $AWS_SECRECT_KEY
+
+#deploy:
+#  provider: elasticbeanstalk
+#  region: "us-east-1"
+#  app: "docker-test"
+#  env: "DockerTest-env"
+#  bucket_name: "elasticbeanstalk-us-east-1-634261840555"
+#  bucket_path: "docker-test"
+#  on:
+#    branch: master
+#  access_key_id: $AWS_ACCESS_KEY
+#  secret_access_key: $AWS_SECRECT_KEY

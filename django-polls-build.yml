@@ -6,7 +6,7 @@ services:
     build:
       context: base_image/
       dockerfile: Dockerfile.mydjango
-    image: example/django:latest
+    image: coding4startups/django:latest
     entrypoint: /bin/true
 
 #fake Service to build "uwsgi" Base Image
@@ -14,7 +14,7 @@ services:
     build:
       context: base_image/
       dockerfile: Dockerfile.myuwsgi
-    image: example/uwsgi:latest
+    image: coding4startups/uwsgi:latest
     entrypoint: /bin/true
 
 # fake Service to build "mynginx" Image
@@ -25,8 +25,8 @@ services:
       context: django-polls/
       dockerfile: Dockerfile.nginx
       args:
-        BaseImage: example/django:latest
-    image: example/mynginx:latest
+        BaseImage: coding4startups/django:latest
+    image: coding4startups/mynginx:latest
     entrypoint: /bin/true
 
 # fake Service to build "django-polls" Image
@@ -37,6 +37,6 @@ services:
       context: django-polls/
       dockerfile: Dockerfile.polls
       args:
-        BaseImage: example/uwsgi:latest
-    image: example/django-polls:nginx
+        BaseImage: coding4startups/uwsgi:latest
+    image: coding4startups/django-polls:nginx
     entrypoint: /bin/true
