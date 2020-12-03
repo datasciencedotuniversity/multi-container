@@ -2,8 +2,8 @@ language: generic
 sudo: required
 services:
   - docker
-before_install:
-  - docker build -t datasciencedotuniversity/dockeer-react -f Dockerfile.dev .
+#before_install:
+#  - docker build -t datasciencedotuniversity/dockeer-react -f Dockerfile.dev .
 #script:
 #  - docker run -e CI=true datasciencedotuniversity/dockeer-react npm run test
 
