@@ -2,18 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6f400b9-797c-4244-884e-c22365ef5c9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-admin.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-polls/create-admin.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django-polls/run-server.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerrun.aws.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerrun.aws.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django-polls-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/django-polls-deploy.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django-polls/media/news.txt" beforeDir="false" afterPath="$PROJECT_DIR$/django-polls/news.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django-polls/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/django-polls/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ops.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ops.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,15 +46,36 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\docker-projects\final\website-3" />
-      <recent name="D:\docker-projects\final\website-1" />
-      <recent name="D:\docker-projects\compose-build-master\compose-build-master" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\docker-projects\final\website-3\django-polls" />
       <recent name="D:\docker-projects\compose-build-master\compose-build-master\django-polls" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\docker-projects\final\website-3" />
+      <recent name="D:\docker-projects\final\website-3\django-polls" />
+      <recent name="D:\docker-projects\final\website-1" />
+      <recent name="D:\docker-projects\compose-build-master\compose-build-master" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="django-polls-deploy.yml.init: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="init" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="django-polls-deploy.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.django-polls-deploy.yml.init: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -79,7 +106,8 @@
       <workItem from="1606658462477" duration="4222000" />
       <workItem from="1606699025740" duration="949000" />
       <workItem from="1606999863405" duration="9699000" />
-      <workItem from="1607020004138" duration="2679000" />
+      <workItem from="1607020004138" duration="3123000" />
+      <workItem from="1607048667825" duration="8404000" />
     </task>
     <servers />
   </component>
@@ -92,10 +120,14 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1607020005276">
+    <state x="356" y="82" key="#django-polls-deploy.yml.init:_Compose_Deployment" timestamp="1607048836182">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="356" y="82" key="#django-polls-deploy.yml.init:_Compose_Deployment/0.0.1500.960/-1920.0.1920.1040@0.0.1500.960" timestamp="1607048836182" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1607048685984">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="-1920" y="0" key="com.intellij.ide.util.TipDialog/0.0.1500.960/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606699078900" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1500.960/-1920.0.1920.1040@0.0.1500.960" timestamp="1607020005276" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1500.960/-1920.0.1920.1040@0.0.1500.960" timestamp="1607048685984" />
   </component>
 </project>

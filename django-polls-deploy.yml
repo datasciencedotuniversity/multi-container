@@ -54,3 +54,14 @@ services:
     ports:
       - "8000:8000"
 
+  init:
+    image: coding4startups/django-polls:nginx
+    networks:
+      - polls_net
+    env_file:
+      - deployment.env
+    command: ["/bin/bash", "-c",
+              "python manage.py migrate;
+               chmod +x create-admin.sh;
+               ./create-admin.sh"]
+    tty: true

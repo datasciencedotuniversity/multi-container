@@ -2,26 +2,26 @@
   "containerDefinitions": [
     {
       "essential": true,
-      "image": "coding4startups/django-polls:nginx",
+      "image": "example/django-polls:nginx",
       "name": "app1",
       "memory": 128
     },
     {
       "essential": true,
-      "image": "coding4startups/django-polls:nginx",
+      "image": "example/django-polls:nginx",
       "name": "app2",
       "memory": 128
     },
     {
       "essential": true,
-      "image": "coding4startups/django-polls:nginx",
+      "image": "example/django-polls:nginx",
       "name": "app3",
       "memory": 128
     },
     {
       "essential": true,
       "image": "postgres:11.3",
-      "memory": 256,
+      "memory": 128,
       "mountPoints": [
         {
           "containerPath": "/var/lib/postgres/data",
@@ -29,16 +29,6 @@
         }
       ],
       "name": "db"
-    },
-    {
-      "command": [
-        "/bin/bash",
-        "-c",
-        "python manage.py migrate; chmod +x create-admin.sh; ./create-admin.sh"
-      ],
-      "essential": true,
-      "image": "coding4startups/django-polls:nginx",
-      "name": "init"
     },
     {
       "essential": true,
@@ -54,7 +44,7 @@
     },
     {
       "essential": true,
-      "image": "coding4startups/mynginx:latest",
+      "image": "example/mynginx:latest",
       "name": "proxy",
       "memory": 128,
       "portMappings": [
