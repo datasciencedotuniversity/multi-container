@@ -1,4 +1,4 @@
 git status
 git add .
-git commit -m "First Commit"
+git commit -m "Stash Problem Solved"
 git push origin master
