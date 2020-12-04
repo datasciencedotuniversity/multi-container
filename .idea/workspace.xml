@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerrun.aws.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerrun.aws.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django-polls-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/django-polls-deploy.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitupdate.sh" beforeDir="false" afterPath="$PROJECT_DIR$/gitupdate.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +109,7 @@
       <workItem from="1606699025740" duration="949000" />
       <workItem from="1606999863405" duration="9699000" />
       <workItem from="1607020004138" duration="3123000" />
-      <workItem from="1607048667825" duration="21811000" />
+      <workItem from="1607048667825" duration="24701000" />
     </task>
     <servers />
   </component>
