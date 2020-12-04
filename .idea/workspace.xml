@@ -10,6 +10,7 @@
       <change beforePath="$PROJECT_DIR$/Dockerrun-old.aws.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerrun.aws.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerrun.aws.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django-polls-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/django-polls-deploy.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitupdate.sh" beforeDir="false" afterPath="$PROJECT_DIR$/gitupdate.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ops.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +114,7 @@
       <workItem from="1606699025740" duration="949000" />
       <workItem from="1606999863405" duration="9699000" />
       <workItem from="1607020004138" duration="3123000" />
-      <workItem from="1607048667825" duration="11403000" />
+      <workItem from="1607048667825" duration="11818000" />
     </task>
     <servers />
   </component>
