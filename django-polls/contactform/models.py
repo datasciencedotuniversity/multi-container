@@ -5,7 +5,7 @@ class Contactform(models.Model):
     
     name = models.CharField(max_length=250)
     email = models.CharField(max_length=250)
-    body = models.TextField()
+    body = models.TextField(default='-')
     date = models.CharField(max_length=250, default='-')
     time = models.CharField(max_length=250, default='-')
 
