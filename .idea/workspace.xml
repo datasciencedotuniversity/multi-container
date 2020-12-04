@@ -111,7 +111,7 @@
       <workItem from="1606699025740" duration="949000" />
       <workItem from="1606999863405" duration="9699000" />
       <workItem from="1607020004138" duration="3123000" />
-      <workItem from="1607048667825" duration="26746000" />
+      <workItem from="1607048667825" duration="27712000" />
     </task>
     <servers />
   </component>
@@ -131,6 +131,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="356" y="82" key="#django-polls-deploy.yml.init:_Compose_Deployment/0.0.1500.960/-1920.0.1920.1040@0.0.1500.960" timestamp="1607048836182" />
+    <state x="196" y="0" width="1107" height="960" key="CommitChangelistDialog2" timestamp="1607093762722">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="196" y="0" width="1107" height="960" key="CommitChangelistDialog2/0.0.1500.960/-1920.0.1920.1040@0.0.1500.960" timestamp="1607093762722" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1607048685984">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
