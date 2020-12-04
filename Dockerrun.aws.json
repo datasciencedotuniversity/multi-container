@@ -13,13 +13,6 @@
       "memory": 128
     },
     {
-      "command": [
-        "tail",
-        "-f",
-        "/bin/bash",
-        "-c",
-        "chmod +rw create-admin.sh && chmod +rw wait-for-it.sh && ./wait-for-it.sh db:5432 -s && python manage.py migrate  && ./create-admin.sh"
-      ],
       "essential": true,
       "image": "coding4startups/django-polls:nginx",
       "name": "app3",
