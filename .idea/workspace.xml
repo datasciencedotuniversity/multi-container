@@ -5,6 +5,7 @@
       <change afterPath="$PROJECT_DIR$/django-polls/wait-for-it.sh" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wait-for-it.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerrun.aws.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerrun.aws.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django-polls-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/django-polls-deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django-polls/contactform/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/django-polls/contactform/models.py" afterDir="false" />
@@ -111,7 +112,7 @@
       <workItem from="1606699025740" duration="949000" />
       <workItem from="1606999863405" duration="9699000" />
       <workItem from="1607020004138" duration="3123000" />
-      <workItem from="1607048667825" duration="27712000" />
+      <workItem from="1607048667825" duration="28336000" />
     </task>
     <servers />
   </component>
