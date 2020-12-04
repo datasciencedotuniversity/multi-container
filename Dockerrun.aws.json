@@ -39,7 +39,8 @@
       ],
       "essential": true,
       "image": "coding4startups/django-polls:nginx",
-      "name": "init"
+      "name": "init",
+      "memory": 256
     },
     {
       "essential": true,
